@@ -702,8 +702,13 @@ label {
     }
 
     .button-main {
-        padding: 0.5rem 1rem;
+        padding: 0.8rem 1rem;
         font-size: 1rem;
+    }
+
+    .main-heading {
+        top: 53%;
+        left: 50%;
     }
 }
 
@@ -729,6 +734,14 @@ label {
 
 @media (max-height: 560px) {
     #home {
+        height: 100vh;
+    }
+
+    .main-heading h1 {
+        font-size: 2rem;
+    }
+
+    .nav-list {
         height: 100vh;
     }
 }
