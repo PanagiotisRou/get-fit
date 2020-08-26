@@ -696,6 +696,15 @@ label {
     .footerlogo {
         width: 40%;
     }
+
+    .nav ul li a {
+        font-size: 1.5rem;
+    }
+
+    .button-main {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 576px) {
@@ -715,5 +724,11 @@ label {
 
      .active .nav .logo {
         width: 55% !important;
+    }
+}
+
+@media (max-height: 560px) {
+    #home {
+        height: 100vh;
     }
 }
