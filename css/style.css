@@ -15,20 +15,6 @@ body {
     overflow-x: hidden;
 }
 
-.ueberuns:before {
-    height: 4rem;
-    margin-top: -4rem;
-    content: "";
-    display: block;
-  }
-
-.offset:before {
-    height: 4rem;
-    margin-top: -4rem;
-    content: "";
-    display: block;
-  }
-
 .spacer {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -611,6 +597,14 @@ label {
     .button-main {
         padding: 0.8rem 1.5rem;
     }
+
+    .pic:hover .button-unten {
+        opacity: 0;
+        transform: translateY(0%);
+        margin-top: 1rem;
+    }
+
+
 }
 
 @media (max-width: 992px) {
